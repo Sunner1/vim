@@ -1,7 +1,7 @@
 source $HOME/.vim/sunner/vimcolor
 "let g:colors_name = "railscasts"
 set t_Co=256
-"set rtp+=/home/johan.sunnerstig/winhome/vimfiles/bundle/powerline/powerline/bindings/vim
+"set rtp+=vimfiles/bundle/powerline/powerline/bindings/vim
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
