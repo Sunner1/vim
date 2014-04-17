@@ -14,3 +14,6 @@ set background=light
 set smartindent
 set shiftwidth=4
 set expandtab
+
+" Keyboard shortcuts
+map <C-n> :NERDTreeToggle<CR>
