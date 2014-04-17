@@ -19,11 +19,6 @@ set smartindent
 set shiftwidth=4
 set expandtab
 
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
-
 " Keyboard shortcuts
 map <C-n> :NERDTreeToggle<CR>
 
