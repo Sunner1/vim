@@ -19,6 +19,9 @@ set smartindent
 set shiftwidth=4
 set expandtab
 
+autocmd FileType rb setlocal shiftwidth=2 tabstop=2
+autocmd FileType pp setlocal shiftwidth=2 tabstop=2
+
 " Keyboard shortcuts
 map <C-n> :NERDTreeToggle<CR>
 
