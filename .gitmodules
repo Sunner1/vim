@@ -43,3 +43,6 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-cisco-ios"]
+	path = bundle/vim-cisco-ios
+	url = https://github.com/CyCoreSystems/vim-cisco-ios
