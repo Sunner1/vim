@@ -49,6 +49,3 @@
 [submodule "python-mode"]
     path = python-mode
     url = git://github.com/klen/python-mode.git
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = git://github.com/klen/python-mode.git
