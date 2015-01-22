@@ -47,5 +47,5 @@
 	path = bundle/vim-cisco-ios
 	url = https://github.com/CyCoreSystems/vim-cisco-ios
 [submodule "python-mode"]
-	path = python-mode
-	url = git://github.com/klen/python-mode.git
+    path = python-mode
+    url = git://github.com/klen/python-mode.git
