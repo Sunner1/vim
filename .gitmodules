@@ -49,3 +49,6 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = https://github.com/klen/python-mode.git
+[submodule "bundle/salt-vim"]
+	path = bundle/salt-vim
+	url = git://github.com/saltstack/salt-vim.git

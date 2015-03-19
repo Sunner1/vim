@@ -1,6 +1,7 @@
 source $HOME/.vim/sunner/vimcolor
 set t_Co=256
 set nu
+set nocompatible
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
