@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/cygdrive/c/Users/johan.sunnerstig/Git/puppet-prod/development/modules/profile/manifests'
-let g:netrw_dirhist_2='/home/johan.sunnerstig/Git/puppet-dynamictest/modules/vmwaretools/manifests/install'
-let g:netrw_dirhist_3='/cygdrive/c/Users/johan.sunnerstig/vimfiles'
-let g:netrw_dirhist_4='/cygdrive/c/Users/johan.sunnerstig/.vim'
-let g:netrw_dirhist_5='/cygdrive/c/Users/johan.sunnerstig/Git/puppet-prod/testing/modules/profile/manifests'
