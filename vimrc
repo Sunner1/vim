@@ -1,10 +1,15 @@
-source $HOME/.vim/sunner/vimcolor
 set t_Co=256
 set nu
 set nocompatible
 execute pathogen#infect()
-syntax on
 filetype plugin indent on
+
+" Color scheme and syntax hilighting stuff
+source $HOME/.vim/sunner/vimcolor
+"let g:solarized_termcolors=256
+syntax enable
+set background=dark
+"colorscheme solarized
 
 set fdm=syntax
 set nofoldenable
