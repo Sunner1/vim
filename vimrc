@@ -5,11 +5,11 @@ execute pathogen#infect()
 filetype plugin indent on
 
 " Color scheme and syntax hilighting stuff
-source $HOME/.vim/sunner/vimcolor
+"source $HOME/.vim/sunner/vimcolor
 "let g:solarized_termcolors=256
 syntax enable
 set background=dark
-"colorscheme solarized
+colorscheme solarized
 
 set fdm=syntax
 set nofoldenable
@@ -22,7 +22,6 @@ let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
 set tabstop=4
-set background=light
 set smartindent
 set shiftwidth=4
 set expandtab
