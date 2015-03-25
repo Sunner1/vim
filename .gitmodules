@@ -46,9 +46,6 @@
 [submodule "bundle/vim-cisco-ios"]
 	path = bundle/vim-cisco-ios
 	url = https://github.com/CyCoreSystems/vim-cisco-ios
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = https://github.com/klen/python-mode.git
 [submodule "bundle/salt-vim"]
 	path = bundle/salt-vim
 	url = git://github.com/saltstack/salt-vim.git
