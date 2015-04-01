@@ -14,8 +14,9 @@ colorscheme solarized
 set fdm=syntax
 set nofoldenable
 
-set laststatus=2 " Always display the statusline in all windows
-set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set laststatus=2    " Always display the statusline in all windows
+set noshowmode      " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set hlsearch        " Highlight search terms
 
 " Indent guides
 let g:indent_guides_start_level = 2
@@ -33,6 +34,7 @@ autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 
 " Keyboard shortcuts
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 " Syntastic config
 let g:syntastic_puppet_puppetlint_args = "--no-80chars-check --no-class_inherits_from_params_class-check --no-autoloader_layout-check"
