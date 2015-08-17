@@ -11,6 +11,9 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" Cursor blink is bad
+set guicursor=a:blinkon0
+
 set fdm=syntax
 set nofoldenable
 
