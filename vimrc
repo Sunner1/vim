@@ -39,5 +39,8 @@ autocmd Filetype javascript setlocal ts=4 sts=4 sw=4
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
+" Enable mouse support
+set mouse=a
+
 " Syntastic config
 let g:syntastic_puppet_puppetlint_args = "--no-80chars-check --no-class_inherits_from_params_class-check --no-autoloader_layout-check"
