@@ -1,11 +1,11 @@
 set t_Co=256
 set nu
 set nocompatible
-execute pathogen#infect()
+
+source $HOME/.vim/plugrc
+
 filetype plugin indent on
 
-" Color scheme and syntax hilighting stuff
-"source $HOME/.vim/sunner/vimcolor
 "let g:solarized_termcolors=256
 syntax enable
 set background=dark
@@ -44,3 +44,4 @@ set mouse=c
 
 " Syntastic config
 let g:syntastic_puppet_puppetlint_args = "--no-80chars-check --no-class_inherits_from_params_class-check --no-autoloader_layout-check"
+

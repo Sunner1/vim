@@ -1,0 +1,26 @@
+call plug#begin('~/.vim/plugged')
+
+let g:plug_threads=16
+
+Plug 'https://github.com/scrooloose/nerdtree.git'
+Plug 'https://github.com/klen/python-mode.git'
+Plug 'https://github.com/saltstack/salt-vim.git'
+Plug 'https://github.com/scrooloose/syntastic.git'
+Plug 'https://github.com/godlygeek/tabular.git'
+Plug 'https://github.com/SirVer/ultisnips.git'
+Plug 'https://github.com/bling/vim-airline.git'
+Plug 'https://github.com/Chiel92/vim-autoformat.git'
+Plug 'https://github.com/CyCoreSystems/vim-cisco-ios'
+Plug 'https://github.com/altercation/vim-colors-solarized.git'
+Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'https://github.com/fatih/vim-go.git'
+Plug 'https://github.com/nathanaelkane/vim-indent-guides.git'
+Plug 'https://github.com/PProvost/vim-ps1.git'
+Plug 'https://github.com/rodjek/vim-puppet.git'
+Plug 'https://github.com/vim-ruby/vim-ruby.git'
+Plug 'https://github.com/tpope/vim-sensible.git'
+Plug 'https://github.com/honza/vim-snippets.git'
+Plug 'https://github.com/vim-scripts/vim-vagrant.git'
+
+call plug#end()
+
