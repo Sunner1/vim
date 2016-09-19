@@ -22,6 +22,7 @@ Plug 'https://github.com/tpope/vim-sensible.git'
 Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/vim-scripts/vim-vagrant.git'
 Plug 'https://github.com/tomtom/tcomment_vim'
+Plug 'https://github.com/Valloric/YouCompleteMe'
 
 call plug#end()
 
