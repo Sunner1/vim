@@ -23,6 +23,10 @@ Plug 'https://github.com/honza/vim-snippets.git'
 Plug 'https://github.com/vim-scripts/vim-vagrant.git'
 Plug 'https://github.com/tomtom/tcomment_vim'
 Plug 'https://github.com/Valloric/YouCompleteMe'
+Plug 'https://github.com/hashivim/vim-vagrant.git'
+Plug 'https://github.com/lepture/vim-jinja'
+Plug 'https://github.com/plasticboy/vim-markdown'
+Plug 'https://github.com/timcharper/textile.vim.git'
 
 call plug#end()
 
