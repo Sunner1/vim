@@ -27,6 +27,7 @@ Plug 'https://github.com/hashivim/vim-vagrant.git'
 Plug 'https://github.com/lepture/vim-jinja'
 Plug 'https://github.com/plasticboy/vim-markdown'
 Plug 'https://github.com/timcharper/textile.vim.git'
+Plug 'https://github.com/vim-scripts/spec.vim.git'
 
 call plug#end()
 
