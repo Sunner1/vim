@@ -28,6 +28,7 @@ Plug 'https://github.com/lepture/vim-jinja'
 Plug 'https://github.com/plasticboy/vim-markdown'
 Plug 'https://github.com/timcharper/textile.vim.git'
 Plug 'https://github.com/vim-scripts/spec.vim.git'
+Plug 'https://github.com/vim-scripts/nagios-syntax.git'
 
 call plug#end()
 
